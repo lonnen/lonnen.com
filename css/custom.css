@@ -8,10 +8,78 @@
     font-style: normal;
 }
 
-body {
+body {    
     border-top: 1rem solid #333;
     font-family: "LeagueSpartan", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
-    line-height: 3.2rem;
-    
+    line-height: 3.2rem;   
+}
+
+.button,
+button {
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+button:hover,
+.button:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+}
+
+.button.button-primary {
+    color: #FFF;
+    filter: brightness(90%)
+}
+
+.button.button-primary:hover,
+.button.button-primary:focus {
+    color: #FFF;
+    filter: brightness(90%)
+}
+
+.icon {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+/* Defualt */
+.button.button-default {
+    color: #FFFFFF;
+    background-color: #0085FF
+}
+
+.button.button-default:hover,
+.button.button-default:focus {
+    filter: brightness(90%)
+}
+
+/* Github */
+.button.button-github {
+    color: #FFFFFF;
+    background-color: #000000
+}
+
+.button.button-github:hover,
+.button.button-github:focus {
+    filter: brightness(90%)
+}
+
+/* XOR */
+.button.button-xor {
+    color: #FFFFFF;
+    background-color: #000
+}
+
+.button.button-xor:hover,
+.button.button-xor:focus {
+    filter: brightness(90%)
 }

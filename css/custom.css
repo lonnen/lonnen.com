@@ -1,2 +1,15 @@
 /* all the non-framework, custom css goes here */
 
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url("../fonts/LeagueSpartan-Medium.woff2") format("woff2"),
+        url("../fonts/LeagueSpartan-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "LeagueSpartan", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}

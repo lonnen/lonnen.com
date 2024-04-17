@@ -35,6 +35,11 @@
   box-sizing: border-box;
 }
 
+.container p,
+.container ul {
+  text-align: left;
+}
+
 .column {
   position: center;
   width: 100%;

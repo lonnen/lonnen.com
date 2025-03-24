@@ -1,0 +1,16 @@
+base_url = "https://lonnen.com"
+build_search_index = false
+compile_sass = true
+default_language = "en"
+theme = "terminimal"
+
+[markdown]
+highlight_code = true
+
+[extra]
+accent_color = "green"
+background_color = "dark"
+logo_text = "Lonnen dot com"
+author = "Lonnen"
+# og_image = "colocated_image.png"
+# default_og_image = "static/ocean.jpg"

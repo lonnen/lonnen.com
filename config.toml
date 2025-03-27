@@ -14,3 +14,9 @@ logo_text = "Lonnen dot com"
 author = "Lonnen"
 # og_image = "colocated_image.png"
 # default_og_image = "static/ocean.jpg"
+
+menu_items = [
+    {name = "xor (blog)", url = "https://xor.lonnen.com/"},
+    {name = "github", url = "https://github.com/lonnen"},
+    {name = "bsky", url = "https://bsky.app/profile/lonnen.departmentoflastresort.com"}
+]

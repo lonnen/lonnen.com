@@ -10,7 +10,7 @@ highlight_code = true
 [extra]
 accent_color = "green"
 background_color = "dark"
-logo_text = "Lonnen dot com"
+logo_text = " "
 author = "Lonnen"
 # og_image = "colocated_image.png"
 # default_og_image = "static/ocean.jpg"
